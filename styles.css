@@ -1,6 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    width: 100%;
+    background:#e6e6ff;
+    position: fixed;
+}
+#navbar ul li{
+    float: right;
+    width: 10%;
+    margin: 10px auto;
+}
+
 #welcome-section{
+    width: 100%;
+    height: 250px;
     background: #e6e6ff;
-    padding: 30px 60px 30px 450px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 200px;
 }
 #welcome-section p{
     color:  #9900e6;
